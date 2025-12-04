@@ -1,0 +1,97 @@
+<header class="sticky top-0 z-50 bg-white shadow-lg rounded-b-xl">
+    <nav class="flex justify-between items-center p-4 sm:p-6">
+        <!-- Logo/Nom -->
+        <a href="index.html" class="text-3xl font-extrabold text-green flex items-center space-x-2 cursor-pointer">
+            <!-- Icône de cycle stylisé -->
+            <svg class="w-8 h-8 sm:w-10 sm:h-10 text-yellow-600" fill="none" stroke="currentColor"
+                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 16c-3.31 0-6-2.69-6-6h2c0 2.21 1.79 4 4 4s4-1.79 4-4h2c0 3.31-2.69 6-6 6zm5-6h-2c0-2.21-1.79-4-4-4s-4 1.79-4 4H6c0-3.31 2.69-6 6-6s6 2.69 6 6z"></path>
+            </svg>
+            <span>Green'Lab</span>
+        </a>
+        
+        <!-- Menu principal (desktop) -->
+        <div class="hidden md:flex space-x-6 font-semibold text-gray-700">
+            <!-- Sur chaque page, ajoute la classe text-green-600 sur le lien actif -->
+            <a href="index.html" class="hover:text-green-600 transition duration-300">Accueil</a>
+            <a href="booking.html" class="hover:text-green-600 transition duration-300">Rendez-vous & Atelier</a>
+            <a href="before-after.html" class="hover:text-green-600 transition duration-300">Avant/Après</a>
+            <a href="info.html" class="hover:text-green-600 transition duration-300">Informations & Contact</a>
+            <a href="loyalty.html" class="hover:text-green-600 transition duration-300">Fidélité & Avantages</a>
+        </div>
+
+        <!-- Bouton d'action principal -->
+        <a href="booking.html"
+           class="hidden sm:block bg-green-600 text-white font-bold py-2 px-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-330">
+            Réparer Maintenant
+        </a>
+
+        <!-- Menu burger pour mobile -->
+        <button id="menu-button" class="md:hidden p-2 rounded-lg hover:bg-gray-100 transition duration-300">
+            <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+    </nav>
+
+    <!-- Menu déroulant mobile -->
+    <div id="mobile-menu" class="hidden md:hidden bg-gray-50 border-t border-gray-200">
+        <nav class="flex flex-col p-4 space-y-2 font-medium">
+            <a href="index.html"
+               class="text-left py-2 text-gray-800 hover:text-green-600 hover:bg-gray-100 rounded-md transition duration-300">
+                Accueil
+            </a>
+            <a href="booking.html"
+               class="text-left py-2 text-gray-800 hover:text-green-600 hover:bg-gray-100 rounded-md transition duration-300">
+                Rendez-vous & Atelier
+            </a>
+            <a href="before-after.html"
+               class="text-left py-2 text-gray-800 hover:text-green-600 hover:bg-gray-100 rounded-md transition duration-300">
+                Avant/Après
+            </a>
+            <a href="info.html"
+               class="text-left py-2 text-gray-800 hover:text-green-600 hover:bg-gray-100 rounded-md transition duration-300">
+                Informations & Contact
+            </a>
+            <a href="loyalty.html"
+               class="text-left py-2 text-gray-800 hover:text-green-600 hover:bg-gray-100 rounded-md transition duration-300">
+                Fidélité & Avantages
+            </a>
+            <a href="booking.html"
+               class="mt-4 bg-green-600 text-white font-bold py-2 rounded-lg shadow-md hover:opacity-90 transition duration-330 text-center">
+                Réparer Maintenant
+            </a>
+        </nav>
+    </div>
+</header>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green'Lab - Fidélité & Avantages</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen antialiased">
+<div class="max-w-7xl mx-auto">
+
+    <!-- Header commun -->
+
+    <main class="p-4 sm:p-8">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Programme de Fidélité et Avantages Green'Lab</h2>
+        <p class="text-gray-600 mb-4">
+            Le contenu sur les points de fidélité et les avantages exclusifs sera développé ici.
+        </p>
+    </main>
+
+    <!-- Footer commun -->
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

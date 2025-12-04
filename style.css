@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f7f7; /* Fond très léger */
+}
+
+
+.theme-green {
+    background-color: #4CAF50; /* Vert principal */
+}
+
+.theme-yellow {
+    background-color: #FFC107; /* Jaune secondaire (énergie, atelier) */
+}
+
+.text-green {
+    color: #4CAF50;
+}
+
+.border-green {
+    border-color: #4CAF50;
+}
+
+.before-after-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
