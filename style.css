@@ -2,16 +2,16 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #f7f7f7; /* Fond très léger */
+    background-color: #f7f7f7; 
 }
 
 
 .theme-green {
-    background-color: #4CAF50; /* Vert principal */
+    background-color: #4CAF50; 
 }
 
 .theme-yellow {
-    background-color: #FFC107; /* Jaune secondaire (énergie, atelier) */
+    background-color: #FFC107; 
 }
 
 .text-green {

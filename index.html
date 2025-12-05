@@ -1,8 +1,6 @@
 <header class="sticky top-0 z-50 bg-white shadow-lg rounded-b-xl">
     <nav class="flex justify-between items-center p-4 sm:p-6">
-        <!-- Logo/Nom -->
         <a href="index.html" class="text-3xl font-extrabold text-green flex items-center space-x-2 cursor-pointer">
-            <!-- Icône de cycle stylisé -->
             <svg class="w-8 h-8 sm:w-10 sm:h-10 text-yellow-600" fill="none" stroke="currentColor"
                  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -11,23 +9,18 @@
             <span>Green'Lab</span>
         </a>
         
-        <!-- Menu principal (desktop) -->
         <div class="hidden md:flex space-x-6 font-semibold text-gray-700">
-            <!-- Sur chaque page, ajoute la classe text-green-600 sur le lien actif -->
             <a href="index.html" class="hover:text-green-600 transition duration-300">Accueil</a>
             <a href="booking.html" class="hover:text-green-600 transition duration-300">Rendez-vous & Atelier</a>
-            <a href="before-after.html" class="hover:text-green-600 transition duration-300">Avant/Après</a>
             <a href="info.html" class="hover:text-green-600 transition duration-300">Informations & Contact</a>
             <a href="loyalty.html" class="hover:text-green-600 transition duration-300">Fidélité & Avantages</a>
         </div>
 
-        <!-- Bouton d'action principal -->
         <a href="booking.html"
            class="hidden sm:block bg-green-600 text-white font-bold py-2 px-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-330">
             Réparer Maintenant
         </a>
 
-        <!-- Menu burger pour mobile -->
         <button id="menu-button" class="md:hidden p-2 rounded-lg hover:bg-gray-100 transition duration-300">
             <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                  xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +30,6 @@
         </button>
     </nav>
 
-    <!-- Menu déroulant mobile -->
     <div id="mobile-menu" class="hidden md:hidden bg-gray-50 border-t border-gray-200">
         <nav class="flex flex-col p-4 space-y-2 font-medium">
             <a href="index.html"
@@ -74,27 +66,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green'Lab - Réparation et Atelier Vélo Participatif</title>
-    <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Styles perso -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="min-h-screen antialiased">
 <div id="app-container" class="max-w-7xl mx-auto">
 
-    <!-- Header commun -->
-    <!-- (copier-coller le header défini plus haut) -->
-    <!-- DANS CETTE PAGE : ajoute par exemple 'text-green-600' sur le lien Accueil si tu veux le marquer actif -->
-
-    <!-- Exemple avec lien actif Accueil : 
-         remplace dans le header de cette page :
-         <a href="index.html" class="hover:text-green-600 ...">
-         par :
-         <a href="index.html" class="text-green-600 hover:text-green-600 ...">
-    -->
-    <!-- HEADER ICI -->
-    <!-- ... -->
-    <!-- Je le recolle complet pour que tu puisses copier-coller directement : -->
     <header class="sticky top-0 z-50 bg-white shadow-lg rounded-b-xl">
         <nav class="flex justify-between items-center p-4 sm:p-6">
             <a href="index.html" class="text-3xl font-extrabold text-green flex items-center space-x-2 cursor-pointer">
@@ -109,7 +86,6 @@
             <div class="hidden md:flex space-x-6 font-semibold text-gray-700">
                 <a href="index.html" class="text-green-600 hover:text-green-600 transition duration-300">Accueil</a>
                 <a href="booking.html" class="hover:text-green-600 transition duration-300">Rendez-vous & Atelier</a>
-                <a href="before-after.html" class="hover:text-green-600 transition duration-300">Avant/Après</a>
                 <a href="info.html" class="hover:text-green-600 transition duration-300">Informations & Contact</a>
                 <a href="loyalty.html" class="hover:text-green-600 transition duration-300">Fidélité & Avantages</a>
             </div>
@@ -138,10 +114,6 @@
                    class="text-left py-2 text-gray-800 hover:text-green-600 hover:bg-gray-100 rounded-md transition duration-300">
                     Rendez-vous & Atelier
                 </a>
-                <a href="before-after.html"
-                   class="text-left py-2 text-gray-800 hover:text-green-600 hover:bg-gray-100 rounded-md transition duration-300">
-                    Avant/Après
-                </a>
                 <a href="info.html"
                    class="text-left py-2 text-gray-800 hover:text-green-600 hover:bg-gray-100 rounded-md transition duration-300">
                     Informations & Contact
@@ -158,10 +130,8 @@
         </div>
     </header>
 
-    <!-- CONTENU ACCUEIL -->
     <main class="p-4 sm:p-8">
         <section class="flex flex-col lg:flex-row items-center justify-between bg-white rounded-3xl shadow-xl overflow-hidden mb-12">
-            <!-- Texte d'intro -->
             <div class="lg:w-1/2 p-8 sm:p-12 order-2 lg:order-1">
                 <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-800 leading-tight mb-4">
                     <span class="text-green-600">Green'Lab</span> : Donnez une seconde vie à votre mobilité douce.
@@ -182,22 +152,12 @@
                     </a>
                 </div>
             </div>
-
-            <!-- Image -->
-            <div class="lg:w-1/2 order-1 lg:order-2">
-                <img src="https://placehold.co/800x600/4CAF50/ffffff?text=Image+Accueillante+Atelier+V%C3%A9lo"
-                     alt="Image d'un atelier de réparation de vélo stylisé, symbolisant la réparation écologique."
-                     class="w-full h-auto object-cover lg:rounded-r-3xl"
-                     onerror="this.onerror=null; this.src='https://placehold.co/800x600/4CAF50/ffffff?text=Atelier+Green%27Lab';">
-            </div>
         </section>
 
-        <!-- Section piliers -->
         <section class="text-center py-12">
             <h2 class="text-3xl font-bold text-gray-800 mb-10">Notre Modèle Unique : L'Économie Circulaire en Action</h2>
 
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Pilier 1 -->
                 <div class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-green-500 hover:shadow-xl transition duration-300">
                     <svg class="w-12 h-12 mx-auto text-green-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                          xmlns="http://www.w3.org/2000/svg">
@@ -208,7 +168,6 @@
                     <p class="text-gray-600">Vendez-nous votre vélo ou trottinette non utilisé. Nous le rénovons professionnellement et lui donnons une seconde vie sur le marché.</p>
                 </div>
 
-                <!-- Pilier 2 -->
                 <div class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-yellow-500 hover:shadow-xl transition duration-300">
                     <svg class="w-12 h-12 mx-auto text-yellow-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                          xmlns="http://www.w3.org/2000/svg">
@@ -221,7 +180,6 @@
                     <p class="text-gray-600">Votre véhicule est entre de bonnes mains. Déposez votre vélo ou trottinette cassé, et notre équipe experte s'occupe de le remettre à neuf rapidement.</p>
                 </div>
 
-                <!-- Pilier 3 -->
                 <div class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-indigo-500 hover:shadow-xl transition duration-300">
                     <svg class="w-12 h-12 mx-auto text-indigo-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                          xmlns="http://www.w3.org/2000/svg">
@@ -234,7 +192,6 @@
             </div>
         </section>
 
-        <!-- CTA ateliers -->
         <section class="bg-gray-800 p-8 sm:p-16 rounded-3xl text-center text-white my-12 shadow-2xl">
             <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Prêt à devenir autonome ?</h2>
             <p class="text-xl mb-8 opacity-90">Nos ateliers participatifs sont ouverts à tous, du débutant à l'expert. Réservez votre place et votre établi !</p>
@@ -245,8 +202,6 @@
         </section>
     </main>
 
-    <!-- Footer -->
-    <!-- copier-coller le footer commun -->
     <footer class="bg-gray-900 text-white p-6 sm:p-8 mt-12 rounded-t-xl">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left space-y-4 md:space-y-0">
             <p>&copy; 2025 Green'Lab. L'Économie Circulaire au Service de votre Mobilité.</p>
@@ -259,7 +214,6 @@
 
 </div>
 
-<!-- JS -->
 <script src="script.js"></script>
 </body>
 </html>
